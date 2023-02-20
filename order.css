@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: made-tommy-r;
+    src: url(./fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: made-tommy-bold;
+    src: url(./fonts/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: made-tommy-e-bold;
+    src: url(./fonts/MADE\ TOMMY\ ExtraBold_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: made-tommy-light;
+    src: url(./fonts/MADE\ TOMMY\ Light_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: rock-b;
+    src: url(./fonts/rockb.ttf);
+}
+@font-face {
+    font-family: rock-l;
+    src: url(./fonts/ROCK.TTF);
+}
+
+html{
+    height: 100vh;
+    background-image: linear-gradient(#FFEFBB,#FEFCEF);
+    scroll-behavior: smooth;
+}
+
+.btns{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn{
+    font-size: 20px;
+    color: #3C3C3C;
+    font-family: made-tommy-r;
+    width: 200px;
+    padding: 15px 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.activeb{
+    border-bottom: 4px solid #FBC147;
+    color: #FBC147;
+}
+
+.foods{
+    width: 85%;
+    margin: 0px auto;
+    height: 85vh;
+    background-color: aliceblue;
+    border-radius: 20px;
+    
+}
+
+.food{
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: scroll;
+}
+
+.active{
+    display: flex;
+    
+}
+
+.card{
+    box-shadow: 0px 0px 7px #FBC147;
+    /* border: 2px solid #fbc24786; */
+    width: 350px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    font-family: made-tommy-r;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.fimg{
+    width: 90%;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.fname{
+    font-size: 20px;
+}
+
+.resname{
+    font-family: made-tommy-light;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.pb{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.names{
+    width: 90%;
+}
+
+.price{
+    font-size: 20px;
+}
+
+.buy{
+    background-color: #FBC147;
+    height: fit-content;
+    padding: 5px 25px;
+    border-radius: 5px;
+    display: none;
+}
+.buyd{
+    display: block;
+}
+
+.display{
+    position: absolute;
+    width: 50%;
+    padding: 15px 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 10;
+}
+
+
+.cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+    display: none;
+}
+
+.cover h1{
+    color: white;
+    font-family: made-tommy-bold;
+    position: absolute;
+    right: 280px;
+    top: 50px;
+}
+
+.ac{
+    display: block;
+}
+
+.buy1{
+    background-color: #FBC147;
+    height: fit-content;
+    padding: 5px 25px;
+    border-radius: 5px;
+    display: none;
+}
+.buy1d{
+    display: block;
+}
+
+.dcard{
+    display: none;
+}

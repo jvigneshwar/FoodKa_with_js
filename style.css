@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: linear-gradient(#FFEFBB,#FEFCEF);
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+
+body::-webkit-scrollbar{
+    width: 0;
+}
+
+@font-face {
+    font-family: made-tommy-r;
+    src: url(./fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: made-tommy-bold;
+    src: url(./fonts/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: made-tommy-e-bold;
+    src: url(./fonts/MADE\ TOMMY\ ExtraBold_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: made-tommy-light;
+    src: url(./fonts/MADE\ TOMMY\ Light_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: rock-b;
+    src: url(./fonts/rockb.ttf);
+}
+@font-face {
+    font-family: rock-l;
+    src: url(./fonts/ROCK.TTF);
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+nav{
+    width: 85%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content1{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#food{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:800;
+    font-size: 50px;
+    letter-spacing: -3px;
+    word-spacing: -12px;
+    color: #3C3C3C;
+}
+
+#ka{
+    color: #FBC147;
+}
+
+.links{
+    margin-right: 250px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #3C3C3C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 60px;
+}
+
+.links a:hover{
+    border-bottom: 1.5px solid #1B1C1E;
+}
+
+.order{
+    font-family: made-tommy-light;
+    font-size: 15px;
+    font-weight:lighter;
+    color: #767171;
+    border: 1.5px solid #FBC147;
+    padding: 13px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.order:hover{
+    background-color: #FBC147;
+    color: white;
+}
+
+.left1{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 45%;
+}
+
+#qfd{
+    font-family: made-tommy-e-bold;
+    font-size: 85px;
+    letter-spacing: -1px;
+    color: #1B1C1E;
+    line-height: 90px;
+}
+
+#para1{
+    font-family: made-tommy-r;
+    font-size: 20px;
+    color: #1B1C1E;
+    line-height: 45px;
+}
+
+#getstart{
+    margin-top: 10px;
+    background-color: orange;
+    width: fit-content;
+    color: white;
+    padding: 13px 40px;
+    font-family: made-tommy-light;
+    border-radius: 50px;
+    box-shadow: 10px 10px 25px #FBC147;
+}
+
+a{
+    text-decoration: none;
+}
+
+#getstart:hover{
+    background-color: #1b1c1e00;
+    color: #1B1C1E;
+}
+.right1{
+    height: 85%;
+}
+
+.content2{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left2{
+    transform: translateX(-200px);
+    width: 80%;
+}
+
+.designc{
+    position: absolute;
+    z-index: -1;
+    width: 47%;
+    transform: translateX(-150px);
+    margin-top: 20px;
+}
+
+.right2{
+    transform: translateX(-150px);
+}
+
+#tvf{
+    font-family:rock-b;
+    font-weight: 900;
+    font-size: 70px;
+    width: 600px;
+}
+
+#para2{
+    margin-top: 15px;
+    font-family: rock-l;
+    font-size: 22px;
+    line-height: 38px;
+    font-weight: 550;
+}
+
+#para2 span{
+    color: orange;
+}
+
+#orderv{
+    margin-top: 20px;
+    font-family: rock-l;
+    background-color: #3C3C3C;
+    color: #FBC147;
+    font-size: 23px;
+    width: fit-content;
+    padding: 20px 45px;
+    border-radius: 10px;
+}
+
+.balls{
+    position: absolute;
+    right: 0;
+    top: 5vh;
+    display: flex;
+    width: 150px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.balls1{
+    position: absolute;
+    left: -60px;
+    top: 10vh;
+    display: flex;
+    width: 150px;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.ball{
+    background-color: #fbc24798;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+#circle{
+    position: absolute;
+    width: 470px;
+    height: 470px;
+    border-radius: 50%;
+    background-color: #3C3C3C;
+    transform: translateX(-65%);
+}
+
+#burger2{
+    transform: translateX(-50%);
+    position: absolute;
+    height: 60%; 
+}
+
+#ohc{
+    font-family: rock-b;
+    font-size: 60px;
+}
+
+.three{
+    justify-content: space-between;
+}
+
+.content3{
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(to left, #FBC147 60%, #1b1c1e00 40%);
+    display: flex;
+    align-items: center;
+    
+}
+
+.cards{
+    overflow-x: scroll;
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.cards::-webkit-scrollbar{
+    height: 8px;
+    
+}
+
+.cards::-webkit-scrollbar-track{
+    background-color: none;
+    margin-left: 350px;
+}
+
+.cards::-webkit-scrollbar-thumb{
+    background-color: #3c3c3c8d;
+    
+    border-radius: 5px;
+}
+
+.card{
+    min-width: 550px;
+    height: 330px;
+    background-color: white;
+    margin-right: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover{
+    transition: .5s;
+    transform: scale(1.04);
+}
+
+.card:nth-child(1){
+    margin-left: 350px;
+}
+
+.icon{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.prof{
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.nameb{
+    margin-left: 30px;
+}
+.name{
+    font-family: rock-l;
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #FBC147;
+}
+
+.subn{
+    font-family: made-tommy-light;
+}
+
+.pdes{
+    width: 75%;
+    font-family: made-tommy-light;
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+footer{
+    background-color: #1B1C1E;
+    width: 100%;
+    height: 50vh;
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fone{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: rock-l;
+    font-weight: 50;
+}
+
+.ftwo{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: rock-l;
+}
+
+.fthree{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: rock-l;
+}
+
+.ffour{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: rock-l;
+}
+
+.hidden{
+    opacity: 0;
+    transform: translateX(-5%);
+}
+
+.show{
+    transition: 1s;
+    transform: translateX(0);
+    opacity: 1;
+}
+
